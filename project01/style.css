@@ -1,0 +1,113 @@
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+  }
+  .container{
+  width: 100%; 
+  height: 100vh;
+  background-color: #313df3;
+  background-size :  100px-150px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  }
+  form{
+    background: #fff;
+    display : flex;
+    flex-direction : column;
+    padding : 2vw 4vw;
+    width: 90%;
+   height: 100;
+    max-width : 700px;
+    border-radius: 5px;
+    border : 5px solid black;
+  }
+form h3{
+  color : rgb(21, 21, 21);
+  font-weight: 800;
+  margin-bottom: 20px;
+  background: non;
+}
+
+form input , form textarea{
+
+  border:0 ;
+  margin: 5px 0;
+  padding : 08px;
+  outline: 1px solid black;
+  background: #f5f5f5;
+  font-size : 60;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+   
+}
+form button {
+  padding: 15px;
+  background: #ff5361;
+  color : #fff;
+  font-size : 12px;
+  border : 0;
+  outline : NON;
+  cursor : pointer;
+  width :100px;
+  margin:20px auto 0;
+  border-radius: 20px;
+
+
+}
+title2{
+  color : rgb(3, 0, 3);
+  font-weight: 800;
+  margin-bottom: 20px;
+  background :rgb(248, 236, 4);
+  display : flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  border :rgb(3, 0, 3);
+  
+}
+
+
+
+/* Style the radio buttons */
+input[type="radio"] {
+  display: none;
+}
+
+/* Style the label text to look like a button */
+label {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: #555;
+  border: 2px solid #555;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style the label text to change when the radio button is selected */
+input[type="radio"]:checked + label {
+  background-color: #555;
+  color: #fff;
+}
+
+/* Style the label text to have hover and active effects */
+label:hover {
+  background-color: #f5f5f5;
+}
+
+label:active {
+  transform: translateY(2px);
+  background-color: rgba(167, 190, 38, 0.591);
+}
